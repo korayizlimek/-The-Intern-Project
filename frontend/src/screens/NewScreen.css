@@ -1,0 +1,47 @@
+.newscreen {
+    max-width: 1300px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.new__container {
+    background-color: white;
+    width: 70%;
+    padding: 1rem;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form__item {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    padding: 0.5rem;
+
+    /* padding: 1rem; */
+}
+
+.form__item > select {
+    margin-top: 8px;
+    height: 30px;
+}
+
+.form__item > button {
+    margin-top: 8px;
+    height: 30px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+}
+
+/* .new__container > form {
+    flex-direction: column;
+    justify-content: center;
+}
+
+.new__container > form > select {
+    size: 20px;
+    padding: 3px;
+} */

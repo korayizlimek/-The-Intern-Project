@@ -1,0 +1,24 @@
+.signal {
+    background-color: white;
+    width: 70%;
+    padding: 1.5rem;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.signal__info {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.signal__info > p {
+}
+
+.signal:hover {
+    background-color: pink;
+}

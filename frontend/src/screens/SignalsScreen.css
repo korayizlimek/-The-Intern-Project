@@ -1,0 +1,28 @@
+.headers {
+    max-width: 1300px;
+    margin: 1rem auto;
+}
+
+.header {
+    /* background-color: white; */
+    width: 70%;
+    padding: 1.5rem;
+    box-shadow: 0 2px 0px rgba(0, 0, 0, 0.4);
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header__info {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.header__info > p {
+}
+
+.header:hover {
+    /* background-color: pink; */
+}
